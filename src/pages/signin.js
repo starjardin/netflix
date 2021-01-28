@@ -18,6 +18,7 @@ export default function SignIn() {
 
   const handleSignin = (event) => {
     event.preventDefault();
+    console.log(ROUTES.BROWSE);
 
     return firebase
       .auth()
